@@ -1,0 +1,5 @@
+# Ignore these custom files
+include/config.h
+dwm
+*.tar
+*.o
