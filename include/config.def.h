@@ -1,5 +1,6 @@
 /* See LICENSE file for copyright and license details. */
-
+#ifndef CONFIG_H
+#define CONFIG_H
 /* appearance */
 static const char *fonts[] = {
 	"monospace:size=10"
@@ -110,4 +111,4 @@ static Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
-
+#endif

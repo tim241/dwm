@@ -1,4 +1,6 @@
 /* See LICENSE file for copyright and license details. */
+#ifndef DRW_H
+#define DRW_H
 #define DRW_FONT_CACHE_SIZE 32
 
 typedef struct {
@@ -72,3 +74,4 @@ int drw_text(Drw *, int, int, unsigned int, unsigned int, const char *, int);
 
 /* Map functions */
 void drw_map(Drw *, Window, int, int, unsigned int, unsigned int);
+#endif
